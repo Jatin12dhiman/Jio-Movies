@@ -33,7 +33,7 @@ const Sdata =[
         sname:"Oppenheimer",
         imgscr:"https://theempiretheatre.com/uploads/2023/09/Empire-Movie-site-Oppenheimer.jpg",
         title:"Jio Cinema Movie",
-        links:"https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg"
+        links:"https://www.jiocinema.com/movies/oppenheimer/3914094"
     }
 ]
 export default Sdata;
