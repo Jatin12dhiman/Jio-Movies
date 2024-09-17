@@ -1,5 +1,7 @@
 import React from 'react'
 // import Navbar from './Navbar';
+// import Heading from "./Heading"
+import Images from './Images';
 
 function Card(props) {
     return (
@@ -7,7 +9,9 @@ function Card(props) {
                 
         <div className="cards">
           <div className="card">
-            <img src={props.imgsrc} alt="myPic" className="card__img" />
+          <Images imgsrc={props.imgsrc }/>   
+          {//Jha se call aa rha h , vha konsi property pass hui , isliye props pass kia h 
+          }
             <div className="card__info">
               <span className="card__category">{props.title}</span>
               <h3 className="card_title">{props.sname}</h3>

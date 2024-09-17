@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css"
-// import App from "./App";
-import Card from "./Cards"
-import Sdata from './Sdata'
+import App from "./App";
+
 
 // console.log(Sdata[0].sname) 
 
@@ -14,22 +13,7 @@ import Sdata from './Sdata'
 
 // Wrapping multiple <Card> components inside a React Fragment <>
 ReactDOM.render(
-  <>
-
-    <h1 className="heading_style"> Jio Cinema Super Hit Movies </h1>
-    {Sdata.map((val) =>{ //Fat arrow function 
-      return (
-        <Card
-          imgsrc={val.imgscr}
-          title={val.title}
-          sname={val.sname}
-          link={val.links}
-        />
-      );
-    })};
-
-
-  </>,
+  <App />,
   document.getElementById('root')
 );
 
